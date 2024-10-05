@@ -1,0 +1,18 @@
+.nav-bar{
+    background-color: blue;
+    padding: 10px;
+
+}
+.nav-bar a{
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 20px;
+}
+body{
+    margin: 0;
+    background-color: grey;
+}
+a:hover{
+    font-size: 22px;
+    color: red;
+}
