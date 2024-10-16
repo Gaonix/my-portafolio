@@ -1,5 +1,5 @@
 .nav-bar{
-    background-color: blue;
+    background-color: #1ABC9C;
     padding: 10px;
 
 }
@@ -7,12 +7,24 @@
     color: aliceblue;
     font-size: 20px;
     padding-right: 20px;
+    text-decoration: none;
 }
 body{
     margin: 0;
-    background-color: grey;
+    background-color:#2C3E50;
 }
 a:hover{
     font-size: 22px;
-    color: red;
+    color: #2C3E50;
+    animation: identifier .7s ;
+    animation-iteration-count: infinite;
+}
+@keyframes identifier {
+   0%{color: rgb(255, 6, 6);}
+   25%{color: rgb(174, 0, 255);}
+   50%{color: rgb(3, 255, 255);}
+   75%{color: rgb(37, 255, 4);}
+   100%{color: rgb(252, 231, 0);}
+   
+   
 }
