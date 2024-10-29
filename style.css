@@ -5,7 +5,6 @@ body{
     
 }
 section{
-    box-shadow: 3px 5px red ;
     height: 100px;
     border-radius: 10px;
     margin: 5px;
@@ -14,22 +13,31 @@ section{
    
 }
 nav{
+    top: 0;
 background-color:#09f;
 padding: 10px;
 text-align: center;
 font-size: 30px;
 position: sticky;
 
+
 }
 nav>a{
+    display: inline-block;
     margin-left: 10%;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.669);
-    padding: 10px;
+    padding-right: 10px;
+    overflow-wrap: normal;
 }
 nav>a:hover{
     color: white;
     padding-left:10px;
     box-shadow:0px 4px 8px 0px rgba(0, 0, 0, 0.2);;
    
+}
+nav >a>img{
+    vertical-align: middle;
+    width: 40px;
+    height: auto;
 }
